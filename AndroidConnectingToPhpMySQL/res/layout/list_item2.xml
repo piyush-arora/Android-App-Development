@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0080"
+    android:orientation="vertical" >
+
+    
+    <ImageView 
+                android:layout_marginTop="20sp"
+                android:id="@+id/hotelimagepro"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp"
+                android:src="@drawable/hotel"
+                />
+	    
+   
+    <!-- Name Label -->
+    
+     <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:textSize="35sp"
+	    android:textColor="#FFFFFF"
+	    android:fontFamily="sans-serif-light"
+    	android:background="@drawable/round_tv"
+        android:layout_height="wrap_content"
+        android:text="Amenities Available" />
+    
+    <ImageView
+	    android:id="@+id/imageView2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/line" />
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    
+    <TextView
+        android:id="@+id/rest_text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+	    android:textColor="#FFFFFF"
+	    android:fontFamily="sans-serif-light"
+    	android:background="@drawable/round_tv"
+        android:layout_height="wrap_content"
+        android:text="Restaurant" />
+
+    <TextView
+        android:id="@+id/bar_text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+	    android:textColor="#FFFFFF"
+	    android:fontFamily="sans-serif-light"
+    	android:background="@drawable/round_tv"
+        android:layout_height="wrap_content"
+        android:text="Bar" />
+
+    <TextView
+        android:id="@+id/swim_text"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+	    android:textColor="#FFFFFF"
+	    android:fontFamily="sans-serif-light"
+    	android:background="@drawable/round_tv"
+        android:layout_height="wrap_content"
+        android:text="Swim" />
+
+    </LinearLayout>
+    </ScrollView>
+    
+    <Button
+        android:id="@+id/room_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:background="@drawable/button"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+         />
+   
+</LinearLayout>

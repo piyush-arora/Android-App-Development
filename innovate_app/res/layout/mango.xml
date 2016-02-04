@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mango_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="Do You Want to put your phone in self charging mode ?" />
+
+    <Button
+        android:id="@+id/turn_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="turn off" />
+
+    <Button
+        android:id="@+id/turn_on"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turn on" />
+    
+</LinearLayout>

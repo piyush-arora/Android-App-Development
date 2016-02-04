@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FF0080"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#40FF00"
+        android:textSize="30sp"
+        android:text="View your Bill at" />
+    
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoLink="web"
+        android:textColor="#40FF00"
+        android:textSize="30sp"
+        android:text="" />
+
+</LinearLayout>

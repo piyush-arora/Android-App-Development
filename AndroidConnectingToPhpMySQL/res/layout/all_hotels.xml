@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FF0080">
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+	
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:background="@drawable/round_tv"
+	    android:layout_height="wrap_content" 
+	    android:textSize="40sp"
+	    android:textColor="#FFFFFF"
+	    android:text="Available Hotels"
+	    android:textStyle="bold"
+	    android:fontFamily="sans-serif-light"
+	    />
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/line" />
+	
+    <ListView
+        android:id="@android:id/list"
+        android:layout_marginTop="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+           
+        
+        </ListView>
+
+</LinearLayout>

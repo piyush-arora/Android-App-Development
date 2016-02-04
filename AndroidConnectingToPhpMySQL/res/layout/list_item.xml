@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#FF0080"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+     >
+    
+    <ImageView 
+                android:id="@+id/hotelimage"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:src="@drawable/hotel"
+                />
+    
+	    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="100sp"
+    android:orientation="vertical"
+    android:layout_marginLeft="20sp"
+     >
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/round_tv"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:background="@drawable/round_tv"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+         />
+    
+    <TextView
+        android:id="@+id/name3"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:background="@drawable/round_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+         />
+    
+     
+    
+    </LinearLayout>
+    
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        />
+
+
+</LinearLayout>

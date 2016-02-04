@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0080"
+    android:layout_gravity="center"
+    android:gravity="center" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:background="@drawable/round_tv"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    android:gravity="center"
+        android:text="Congratulations!!!"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    android:gravity="center"
+        android:text="Your Booking is Complete"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    android:gravity="center"
+        android:text="Click to Proceed"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <Button
+        android:id="@+id/tobill"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        android:background="@drawable/buttonc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:text="View Bill" />
+    
+    <Button
+        android:id="@+id/tips"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:background="@drawable/buttonc"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips for Travel" />
+    
+
+</LinearLayout>
